@@ -1,0 +1,94 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family:"Hanken Grotesk";
+}
+.card1{
+    background-image:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(234, 85%, 45%));
+    padding:20px;
+    border-radius:40px;
+    text-align: center;
+}
+.attribution:a{
+    color : rgb(62,82,163);
+    font-size:11px;
+    text-align: center;
+}
+.p1{
+    font-size:18px;
+    color:darkgray;
+    font-weight:600;
+}
+.circles{
+    border-radius:100vmax;
+    border-style:solid;
+    border-width:0px;
+    height:150px;
+    width:150px;
+    background-image:linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.card2{
+    padding:20px;
+}
+.reaction-card{
+    color:hsl(0, 55%, 58%);
+    font-size:18px;
+    font-weight:600;
+}
+.memory-card{
+    color:hsl(39, 100%, 56%);
+    font-size:18px;
+    font-weight:600;
+}
+.verbal-card{
+    color:hsl(166, 100%, 37%);
+    font-size:18px;
+    font-weight:600;
+}
+.visual-card{
+    color:hsl(234, 85%, 45%);
+    font-size:18px;
+    font-weight:600;
+}
+ul{
+    padding:0px;
+    list-style-type: none;
+}
+.mark{
+    color:blue;
+}
+.reaction{
+    background-color:hsla(0, 55%, 58%,0.1);
+    border-radius:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:5px;
+}
+.memory{
+    background-color:hsla(39,100%,56%,0.1);
+    border-radius:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:5px;
+}
+.verbal{
+    background-color:hsla(166,100%,37%,0.1);
+    border-radius:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:5px;
+}
+.visual{
+    background-color:hsla(234,85%,45%,0.1);
+    border-radius:10px;
+    margin-top:15px;
+    padding:5px;
+    margin-bottom:15px;
+}
+.cardi{
+    border-radius:40px;
+}
+.mediumtolarge{
+    display:inline-flexbox;
+}

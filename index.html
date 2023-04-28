@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ff57b0a3e3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="container-fluid d-flex flex-column justify-content-center" style="height:100vh">
+    <div class="row">
+        <div class="d-md-none">
+        <div class="col-12 card1 d-flex flex-column justify-content-center">
+          <div>
+            <h6 style="color:darkgray">Your Result</h6>
+            <div class="m-auto d-flex flex-column justify-content-center circles">
+              <h1 class="text-white">76</h1>
+              <h6 style="color:darkgrey">of 100</h6>
+            </div>
+            <h2 class="text-white">Great</h2>
+            <p class="text-center p1">You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+      </div>
+      <div class="col-12">
+        <h2>Summary</h2>
+        <ul style="list-style-type:None">
+          <li class="reaction d-flex flex-row justify-content-between">
+            <div class="reaction-card mt-2">
+              <img src="./assets/images/icon-reaction.svg"/>Reaction
+            </div>
+            <div class="mt-2">
+              <p class="p1"><span style="color:black;">80</span> /100</p>
+            </div>
+            </li>
+            <li class="memory d-flex flex-row justify-content-between">
+              <div class="memory-card mt-2">
+                <img src="./assets/images/icon-memory.svg"/>Memory
+              </div>
+              <div class="mt-2">
+                <p class="p1"><span style="color:black;">92</span> /100</p>
+              </div>
+              </li>
+              <li class="verbal d-flex flex-row justify-content-between">
+                <div class="verbal-card mt-2">
+                  <img src="./assets/images/icon-verbal.svg"/>Verbal
+                </div>
+                <div class="mt-2">
+                  <p class="p1"><span style="color:black;">61</span> /100</p>
+                </div>
+                </li>
+                <li class="visual d-flex flex-row justify-content-between">
+                  <div class="visual-card mt-2">
+                    <img src="./assets/images/icon-visual.svg"/>Visual
+                  </div>
+                  <div class="mt-2">
+                    <p class="p1"><span style="color:black;">72</span> /100</p>
+                  </div>
+                  </li>
+        </ul>
+        <button class="w-100 btn btn-secondary ">Continue</button>
+    </div>
+  </div>
+      <div class="d-md-block d-none">
+        <div class="ml-auto w-75 cardi d-flex flex-row justify-content-center shadow">
+            <div class="card1 w-75 d-flex flex-column justify-content-center">
+              <div>
+                <h6 style="color:darkgray">Your Result</h6>
+                <div class="m-auto d-flex flex-column justify-content-center circles">
+                  <h1 class="text-white">76</h1>
+                  <h6 style="color:darkgrey">of 100</h6>
+                </div>
+                <h2 class="text-white">Great</h2>
+                <p class="text-center p1">You scored higher than 65% of the people who have taken these tests.</p>
+              </div>
+              </div>
+              <div class="card2 w-75 ">
+                <div>
+                  <h2>Summary</h2>
+                  <ul style="list-style-type:None">
+                    <li class="reaction d-flex flex-row justify-content-between">
+                      <div class="reaction-card mt-2">
+                        <img src="./assets/images/icon-reaction.svg"/>Reaction
+                      </div>
+                      <div class="mt-2">
+                        <p class="p1"><span style="color:black;">80</span> /100</p>
+                      </div>
+                      </li>
+                      <li class="memory d-flex flex-row justify-content-between">
+                        <div class="memory-card mt-2">
+                          <img src="./assets/images/icon-memory.svg"/>Memory
+                        </div>
+                        <div class="mt-2">
+                          <p class="p1"><span style="color:black;">92</span> /100</p>
+                        </div>
+                        </li>
+                        <li class="verbal d-flex flex-row justify-content-between">
+                          <div class="verbal-card mt-2">
+                            <img src="./assets/images/icon-verbal.svg"/>Verbal
+                          </div>
+                          <div class="mt-2">
+                            <p class="p1"><span style="color:black;">61</span> /100</p>
+                          </div>
+                          </li>
+                          <li class="visual d-flex flex-row justify-content-between">
+                            <div class="visual-card mt-2">
+                              <img src="./assets/images/icon-visual.svg"/>Visual
+                            </div>
+                            <div class="mt-2">
+                              <p class="p1"><span style="color:black;">72</span> /100</p>
+                            </div>
+                            </li>
+                  </ul>
+                  <button class="w-100 btn btn-secondary ">Continue</button>
+              </div>
+        </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Naga Chandu</a>.
+  </div>
+</body>
+</html>
